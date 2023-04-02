@@ -1,2 +1,10 @@
 openAi:
   apiKey: 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
+
+kafka:
+  topic-name: topicName
+
+spring:
+  kafka:
+    consumer:
+      group-id: 1
