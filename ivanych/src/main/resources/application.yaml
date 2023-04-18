@@ -1,0 +1,11 @@
+kafka:
+  enable: false
+  topic-name: topicName
+  bootstrap-address: 127.0.0.1:9092
+
+spring:
+  kafka:
+    consumer:
+      group-id: 2
+server:
+  port : 8082
