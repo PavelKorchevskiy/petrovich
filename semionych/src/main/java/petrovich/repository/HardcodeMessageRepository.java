@@ -20,7 +20,7 @@ public class HardcodeMessageRepository implements MessageRepository {
         if (getWelcomeMessages().contains(incomingMessage)) {
             return CollectionUtils.getRandomElementFromList(getWelcomeMessages());
         }
-        return null;
+        return getRandomMessage();
     }
 
     @Override
