@@ -9,3 +9,9 @@ spring:
       group-id: 2
 server:
   port : 8082
+
+grpc:
+  client:
+    chat:
+      address: static://localhost:9090
+      negotiation-type: plaintext

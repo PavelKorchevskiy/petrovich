@@ -25,7 +25,7 @@ public class ChattingController {
         return messageGenerationService.answer(message);
     }
 
-    @PostMapping("/message")
+    @PostMapping("message")
     public String listen(@RequestBody Message message) {
         return messageGenerationService.answer(message);
     }
