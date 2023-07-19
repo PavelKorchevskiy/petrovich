@@ -16,7 +16,7 @@
 	<groupId>com.fun</groupId>
 	<artifactId>petrovich</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>petrovich</name>
+	<name>edu</name>
 	<description>Petrovich - friendly service</description>
 	<properties>
 		<java.version>11</java.version>
