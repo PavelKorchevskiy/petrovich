@@ -1,0 +1,17 @@
+kafka:
+  enable: false
+  topic-name: topicName
+  bootstrap-address: 127.0.0.1:9092
+
+spring:
+  kafka:
+    consumer:
+      group-id: 2
+server:
+  port : 8082
+
+grpc:
+  client:
+    chat:
+      address: static://localhost:9090
+      negotiation-type: plaintext

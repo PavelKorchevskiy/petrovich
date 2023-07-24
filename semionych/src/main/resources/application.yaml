@@ -1,0 +1,19 @@
+openAi:
+  apiKey: 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
+
+kafka:
+  enable: false
+  topic-name: topicName
+  bootstrap-address: 127.0.0.1:9092
+
+spring:
+  kafka:
+    consumer:
+      group-id: 1
+
+server:
+  port : 8081
+
+grpc:
+  server:
+    port: 9090
